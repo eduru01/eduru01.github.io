@@ -1,5 +1,7 @@
 # Student Portfolio Template
 
+> This instance has been customized for: Ezenwanyi Duru
+
 A beginner-friendly portfolio website template with blue color scheme, dark mode, and extensive documentation. Perfect for students and new developers.
 
 ## Features
