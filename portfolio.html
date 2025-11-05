@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- ==================== META INFORMATION ==================== -->
+	<title>[YOUR NAME] - Portfolio</title>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Project portfolio showcasing my work">
+	<meta name="author" content="[YOUR NAME]">
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<!-- ==================== FONTS ==================== -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+
+	<!-- ==================== STYLES ==================== -->
+	<link id="theme-style" rel="stylesheet" href="assets/css/theme.css">
+
+	<!-- ==================== ICONS ==================== -->
+	<script defer src="assets/plugins/fontawesome/js/all.js"></script>
+</head>
+
+<body>
+
+	<!-- ==================== SIDEBAR NAVIGATION ==================== -->
+	<!-- This is the same navigation that appears on all pages -->
+	<!-- CUSTOMIZATION TIP: Keep navigation consistent across all pages -->
+	<header class="header text-center">
+		<div class="force-overflow">
+			<h1 class="blog-name pt-lg-4 mb-0"><a href="index.html">[YOUR NAME]</a></h1>
+
+			<nav class="navbar navbar-expand-lg navbar-dark">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+					aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div id="navigation" class="collapse navbar-collapse flex-column">
+					<!-- ==================== PROFILE SECTION ==================== -->
+					<div class="profile-section pt-3 pt-lg-0">
+						<img class="profile-image mb-3 rounded-circle mx-auto"
+							src="assets/images/profile-placeholder.jpg"
+							alt="Profile photo of [YOUR NAME]">
+
+						<div class="bio mb-3">
+							Hi, my name is [YOUR NAME] and I'm a [YOUR TITLE/ROLE].
+							Welcome to my portfolio website!
+						</div>
+
+						<!-- Social Media Links -->
+						<ul class="social-list list-inline py-2 mx-auto">
+							<li class="list-inline-item">
+								<a href="https://google.com" target="_blank" aria-label="LinkedIn">
+									<i class="fab fa-linkedin-in fa-fw"></i>
+								</a>
+							</li>
+							<li class="list-inline-item">
+								<a href="https://google.com" target="_blank" aria-label="GitHub">
+									<i class="fab fa-github-alt fa-fw"></i>
+								</a>
+							</li>
+							<li class="list-inline-item">
+								<a href="https://google.com" target="_blank" aria-label="Twitter">
+									<i class="fab fa-twitter fa-fw"></i>
+								</a>
+							</li>
+							<li class="list-inline-item">
+								<a href="https://google.com" target="_blank" aria-label="Email">
+									<i class="fas fa-envelope fa-fw"></i>
+								</a>
+							</li>
+							<li class="list-inline-item">
+								<a href="https://google.com" target="_blank" aria-label="CodePen">
+									<i class="fab fa-codepen fa-fw"></i>
+								</a>
+							</li>
+						</ul>
+						<hr>
+					</div>
+
+					<!-- ==================== NAVIGATION MENU ==================== -->
+					<ul class="navbar-nav flex-column text-left">
+						<li class="nav-item">
+							<a class="nav-link" href="index.html">
+								<i class="fas fa-user fa-fw mr-2"></i>About Me
+							</a>
+						</li>
+						<!-- Portfolio - Currently active page -->
+						<li class="nav-item active">
+							<a class="nav-link" href="portfolio.html">
+								<i class="fas fa-laptop-code fa-fw mr-2"></i>Portfolio
+								<span class="sr-only">(current)</span>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="https://google.com" target="_blank">
+								<i class="fas fa-file-alt fa-fw mr-2"></i>Resume
+							</a>
+						</li>
+					</ul>
+
+					<!-- ==================== DARK MODE TOGGLE ==================== -->
+					<div class="dark-mode-toggle text-center w-100">
+						<hr class="mb-4">
+						<h4 class="toggle-name mb-3">
+							<i class="fas fa-adjust mr-1"></i>Dark Mode
+						</h4>
+						<input class="toggle" id="darkmode" type="checkbox">
+						<label class="toggle-btn mx-auto mb-0" for="darkmode"></label>
+					</div>
+
+				</div>
+			</nav>
+		</div>
+	</header>
+	<!-- ==================== END SIDEBAR NAVIGATION ==================== -->
+
+	<!-- ==================== MAIN CONTENT AREA ==================== -->
+	<div class="main-wrapper">
+
+		<!-- ==================== PAGE HEADER ==================== -->
+		<!-- Introduction to your portfolio page -->
+		<section class="cta-section theme-bg-light py-5">
+			<div class="container text-center single-col-max-width">
+				<!-- Page Title -->
+				<h2 class="heading">Portfolio</h2>
+
+				<!-- Page Introduction -->
+				<!-- TO CUSTOMIZE: Write a brief intro about your portfolio -->
+				<div class="intro">
+					<p>
+						Welcome to my project portfolio. Here you can see examples of my work
+						spanning [web development, mobile apps, data projects, etc.].
+						Each project showcases different skills and technologies.
+					</p>
+				</div>
+			</div>
+		</section>
+		<!-- ==================== END PAGE HEADER ==================== -->
+
+		<!-- ==================== PROJECTS GRID SECTION ==================== -->
+		<!-- All your projects displayed in a clean grid layout -->
+		<!-- CUSTOMIZATION DIFFICULTY: EASY -->
+		<section class="projects-list px-3 py-5 p-md-5">
+			<div class="container">
+
+				<!-- ==================== PROJECTS GRID ==================== -->
+				<!-- 2-column grid on desktop, 1 column on mobile -->
+				<!-- TO ADD NEW PROJECT: Copy one project card block and customize it -->
+				<div class="row">
+
+					<!-- ==================== PROJECT CARD 1 ==================== -->
+					<!-- Each project card contains: image, title, description, and link -->
+					<!-- TO CUSTOMIZE: Replace image path, title, description, and links -->
+					<div class="col-md-6 mb-5">
+						<div class="card project-card">
+							<div class="row no-gutters">
+								<!-- Project Image (4 columns on large screens) -->
+								<!-- RECOMMENDED: 400x300px images work best -->
+								<div class="col-lg-4 card-img-holder">
+									<img src="assets/images/projects/project-1.jpg"
+										class="card-img"
+										alt="Screenshot of [Project 1 Name]">
+								</div>
+
+								<!-- Project Details (8 columns on large screens) -->
+								<div class="col-lg-8">
+									<div class="card-body">
+										<!-- Project Title -->
+										<!-- TO CUSTOMIZE: Replace with your project name -->
+										<!-- The link goes to the project detail page -->
+										<h5 class="card-title">
+											<a href="project-template.html" class="theme-link">
+												[Project 1 Name]
+											</a>
+										</h5>
+
+										<!-- Project Description -->
+										<!-- TO CUSTOMIZE: Write 1-2 sentences describing the project -->
+										<!-- TIP: Focus on what problem it solves or what it does -->
+										<p class="card-text">
+											[Brief description of your first project. What does it do?
+											What technologies did you use? What problem does it solve?]
+										</p>
+									</div>
+								</div>
+							</div>
+
+							<!-- Hover Overlay Effect -->
+							<!-- Shows "View Project" button when user hovers over card -->
+							<div class="link-mask">
+								<!-- TO CUSTOMIZE: Update href to point to project details -->
+								<a class="link-mask-link" href="project-template.html"></a>
+								<div class="link-mask-text">
+									<a class="btn btn-secondary" href="project-template.html">
+										<i class="fas fa-eye mr-2"></i>View Project
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- ==================== END PROJECT CARD 1 ==================== -->
+
+					<!-- ==================== PROJECT CARD 2 ==================== -->
+					<div class="col-md-6 mb-5">
+						<div class="card project-card">
+							<div class="row no-gutters">
+								<div class="col-lg-4 card-img-holder">
+									<img src="assets/images/projects/project-2.jpg"
+										class="card-img"
+										alt="Screenshot of [Project 2 Name]">
+								</div>
+								<div class="col-lg-8">
+									<div class="card-body">
+										<h5 class="card-title">
+											<a href="project-template.html" class="theme-link">
+												[Project 2 Name]
+											</a>
+										</h5>
+										<p class="card-text">
+											[Description of your second project. Highlight the key features or technologies used.]
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="link-mask">
+								<a class="link-mask-link" href="project-template.html"></a>
+								<div class="link-mask-text">
+									<a class="btn btn-secondary" href="project-template.html">
+										<i class="fas fa-eye mr-2"></i>View Project
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- ==================== END PROJECT CARD 2 ==================== -->
+
+					<!-- ==================== PROJECT CARD 3 ==================== -->
+					<!-- ⚠️ IMPORTANT: This project currently links to project-template.html -->
+					<!-- WHEN YOUR PROJECT HTML FILE IS READY: -->
+					<!-- 1. Create your custom HTML file (e.g., exploring-resampling-methods.html) -->
+					<!-- 2. Replace ALL instances of "project-template.html" below with your filename -->
+					<!-- 3. Update the project image src to point to your project screenshot -->
+					<!-- 4. Update the description with details about your project -->
+					<div class="col-md-6 mb-5">
+						<div class="card project-card">
+							<div class="row no-gutters">
+								<div class="col-lg-4 card-img-holder">
+									<!-- TO CUSTOMIZE: Replace with your project screenshot -->
+									<img src="assets/images/projects/project-3.jpg"
+										class="card-img"
+										alt="Screenshot of Exploring Resampling Methods">
+								</div>
+								<div class="col-lg-8">
+									<div class="card-body">
+										<h5 class="card-title">
+											<!-- 🔗 CHANGE THIS HREF: Replace "project-template.html" with your custom HTML file -->
+											<a href="project-template.html" class="theme-link">
+												Exploring Resampling Methods
+											</a>
+										</h5>
+										<!-- TO CUSTOMIZE: Write 1-2 sentences about your project -->
+										<p class="card-text">
+											[Brief description of your Exploring Resampling Methods project.
+											What statistical methods did you explore? What were the key findings?]
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="link-mask">
+								<!-- 🔗 CHANGE THIS HREF: Replace "project-template.html" with your custom HTML file -->
+								<a class="link-mask-link" href="project-template.html"></a>
+								<div class="link-mask-text">
+									<!-- 🔗 CHANGE THIS HREF: Replace "project-template.html" with your custom HTML file -->
+									<a class="btn btn-secondary" href="project-template.html">
+										<i class="fas fa-eye mr-2"></i>View Project
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- ==================== END PROJECT CARD 3 ==================== -->
+
+					<!-- ===== ADD MORE PROJECTS HERE ===== -->
+					<!-- INSTRUCTIONS: To add more projects, copy one of the project card blocks -->
+					<!-- above (from the start comment to the end comment) and paste it here. -->
+					<!-- Then update the image, title, description, and links. -->
+					<!-- -->
+					<!-- TIPS: -->
+					<!-- - Keep descriptions concise (1-2 sentences) -->
+					<!-- - Use high-quality project screenshots -->
+					<!-- - Make sure each project links to a detail page -->
+					<!-- - You can have as many projects as you want! -->
+
+				</div>
+				<!-- ==================== END PROJECTS GRID ==================== -->
+
+			</div>
+		</section>
+		<!-- ==================== END PROJECTS GRID SECTION ==================== -->
+
+		<!-- ==================== FOOTER (OPTIONAL) ==================== -->
+		<!--
+		<footer class="footer text-center py-4">
+			<small class="copyright">
+				&copy; 2024 [YOUR NAME]. All rights reserved.
+			</small>
+		</footer>
+		-->
+
+	</div>
+	<!-- ==================== END MAIN CONTENT AREA ==================== -->
+
+	<!-- ==================== JAVASCRIPT FILES ==================== -->
+	<script src="assets/plugins/jquery-3.4.1.min.js"></script>
+	<script src="assets/plugins/popper.min.js"></script>
+	<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+	<script src="assets/plugins/js-cookie.min.js"></script>
+	<script src="assets/js/dark-mode.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- ==================== META INFORMATION ==================== -->
+	<!-- These tags help browsers and search engines understand your site -->
+	<title>[YOUR NAME] - Portfolio</title>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Portfolio website showcasing my projects and skills">
+	<meta name="author" content="[YOUR NAME]">
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<!-- ==================== FONTS ==================== -->
+	<!-- Google Fonts - Roboto is a clean, professional font -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+
+	<!-- ==================== STYLES ==================== -->
+	<!-- Main theme CSS file - This controls all the colors and layout -->
+	<link id="theme-style" rel="stylesheet" href="assets/css/theme.css">
+
+	<!-- ==================== ICONS ==================== -->
+	<!-- FontAwesome provides icons for social media, navigation, etc. -->
+	<script defer src="assets/plugins/fontawesome/js/all.js"></script>
+</head>
+
+<!-- ==================== BODY ==================== -->
+<!-- The body contains all visible content on your page -->
+<!-- The 'dark-mode' class can be added here to start in dark mode by default -->
+<body>
+
+	<!-- ==================== SIDEBAR NAVIGATION ==================== -->
+	<!-- This navigation sidebar appears on the left side of the page -->
+	<!-- On mobile devices, it collapses into a hamburger menu -->
+	<!-- CUSTOMIZATION DIFFICULTY: EASY - Just replace text and links -->
+	<header class="header text-center">
+		<div class="force-overflow">
+			<!-- Site Title/Logo - Appears at the top of the sidebar -->
+			<!-- TO CUSTOMIZE: Replace [YOUR NAME] with your actual name -->
+			<h1 class="blog-name pt-lg-4 mb-0"><a href="index.html">[YOUR NAME]</a></h1>
+
+			<nav class="navbar navbar-expand-lg navbar-dark">
+				<!-- Mobile Menu Toggle Button - Only visible on small screens -->
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+					aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<!-- Navigation Content - Collapsible on mobile -->
+				<div id="navigation" class="collapse navbar-collapse flex-column">
+
+					<!-- ==================== PROFILE SECTION ==================== -->
+					<!-- Your photo, bio, and social media links -->
+					<div class="profile-section pt-3 pt-lg-0">
+						<!-- Profile Photo - Use a square image for best results -->
+						<!-- RECOMMENDED: 400x400px image, professional headshot -->
+						<!-- TO CUSTOMIZE: Replace the src path with your image -->
+						<img class="profile-image mb-3 rounded-circle mx-auto"
+							src="assets/images/profile-placeholder.jpg"
+							alt="Profile photo of [YOUR NAME]">
+
+						<!-- Short Bio - Keep this brief, 2-3 sentences max -->
+						<!-- TO CUSTOMIZE: Write a friendly introduction about yourself -->
+						<div class="bio mb-3">
+							Hi, my name is [YOUR NAME] and I'm a [YOUR TITLE/ROLE].
+							Welcome to my portfolio website!
+						</div>
+
+						<!-- Social Media Links -->
+						<!-- TO CUSTOMIZE: Replace https://google.com with your actual social media URLs -->
+						<!-- TIP: You can remove links you don't use, or add new ones -->
+						<ul class="social-list list-inline py-2 mx-auto">
+							<li class="list-inline-item">
+								<a href="https://google.com" target="_blank" aria-label="LinkedIn Profile">
+									<i class="fab fa-linkedin-in fa-fw"></i>
+								</a>
+							</li>
+							<li class="list-inline-item">
+								<a href="https://google.com" target="_blank" aria-label="GitHub Profile">
+									<i class="fab fa-github-alt fa-fw"></i>
+								</a>
+							</li>
+							<li class="list-inline-item">
+								<a href="https://google.com" target="_blank" aria-label="Twitter Profile">
+									<i class="fab fa-twitter fa-fw"></i>
+								</a>
+							</li>
+							<li class="list-inline-item">
+								<a href="https://google.com" target="_blank" aria-label="Email">
+									<i class="fas fa-envelope fa-fw"></i>
+								</a>
+							</li>
+							<li class="list-inline-item">
+								<a href="https://google.com" target="_blank" aria-label="CodePen Profile">
+									<i class="fab fa-codepen fa-fw"></i>
+								</a>
+							</li>
+						</ul>
+
+						<hr>
+					</div>
+					<!-- ==================== END PROFILE SECTION ==================== -->
+
+					<!-- ==================== NAVIGATION MENU ==================== -->
+					<!-- Main navigation links for your site -->
+					<ul class="navbar-nav flex-column text-left">
+						<!-- About Me - Currently active page -->
+						<li class="nav-item active">
+							<a class="nav-link" href="index.html">
+								<i class="fas fa-user fa-fw mr-2"></i>About Me
+								<span class="sr-only">(current)</span>
+							</a>
+						</li>
+
+						<!-- Portfolio Page -->
+						<li class="nav-item">
+							<a class="nav-link" href="portfolio.html">
+								<i class="fas fa-laptop-code fa-fw mr-2"></i>Portfolio
+							</a>
+						</li>
+
+						<!-- Resume Link - Opens in new tab -->
+						<!-- TO CUSTOMIZE: Replace https://google.com with link to your resume (PDF, Google Drive, etc.) -->
+						<li class="nav-item">
+							<a class="nav-link" href="https://google.com" target="_blank">
+								<i class="fas fa-file-alt fa-fw mr-2"></i>Resume
+							</a>
+						</li>
+					</ul>
+					<!-- ==================== END NAVIGATION MENU ==================== -->
+
+					<!-- ==================== DARK MODE TOGGLE ==================== -->
+					<!-- Allows users to switch between light and dark color schemes -->
+					<!-- The preference is saved in a cookie and persists across visits -->
+					<div class="dark-mode-toggle text-center w-100">
+						<hr class="mb-4">
+						<h4 class="toggle-name mb-3">
+							<i class="fas fa-adjust mr-1"></i>Dark Mode
+						</h4>
+
+						<!-- Checkbox input for dark mode (hidden, styled with CSS) -->
+						<input class="toggle" id="darkmode" type="checkbox">
+						<!-- Custom styled toggle button (the actual visible switch) -->
+						<label class="toggle-btn mx-auto mb-0" for="darkmode"></label>
+					</div>
+					<!-- ==================== END DARK MODE TOGGLE ==================== -->
+
+				</div>
+			</nav>
+		</div>
+	</header>
+	<!-- ==================== END SIDEBAR NAVIGATION ==================== -->
+
+	<!-- ==================== MAIN CONTENT AREA ==================== -->
+	<!-- This is where all your page content goes -->
+	<!-- The sidebar takes up 280px on the left, this content fills the rest -->
+	<div class="main-wrapper">
+
+		<!-- ==================== HERO/INTRO SECTION ==================== -->
+		<!-- First section visitors see - Make a good first impression! -->
+		<!-- CUSTOMIZATION DIFFICULTY: EASY -->
+		<section class="about-me-section p-3 p-lg-5 theme-bg-light">
+			<div class="container">
+				<div class="profile-teaser media flex-column flex-lg-row">
+					<div class="media-body">
+						<!-- Your Name - Large heading -->
+						<!-- TO CUSTOMIZE: Replace [YOUR NAME] with your name -->
+						<h2 class="name font-weight-bold mb-1">[YOUR NAME]</h2>
+
+						<!-- Tagline - Your title or what you do -->
+						<!-- TO CUSTOMIZE: e.g., "Full Stack Developer" or "Software Engineer" -->
+						<div class="tagline mb-3">[YOUR TITLE / ROLE]</div>
+
+						<!-- Bio Paragraph - Tell visitors about yourself -->
+						<!-- TO CUSTOMIZE: Write 2-4 sentences about your background -->
+						<!-- TIP: Mention your education, interests, and what you're looking for -->
+						<div class="bio mb-4 my-3">
+							[Write a brief bio about yourself here. Include your educational background,
+							current status (student, job seeker, etc.), and what makes you passionate about
+							your field. Keep it professional but personable - 2-4 sentences is perfect.]
+						</div>
+
+						<!-- Call-to-Action Buttons -->
+						<!-- These buttons encourage visitors to explore your work -->
+						<div class="mb-4 my-2">
+							<a class="btn btn-primary mr-2 mb-3 my-2" href="portfolio.html">
+								<i class="fas fa-arrow-alt-circle-right mr-2"></i>
+								<span class="d-none d-md-inline">View</span> Portfolio
+							</a>
+							<!-- TO CUSTOMIZE: Update the href with your resume link -->
+							<a class="btn btn-secondary mb-3 my-2" href="https://google.com" target="_blank">
+								<i class="fas fa-file-alt mr-2"></i>
+								<span class="d-none d-md-inline">View</span> Resume
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- ==================== END HERO/INTRO SECTION ==================== -->
+
+		<!-- ==================== WHAT I DO SECTION ==================== -->
+		<!-- Showcase your skills and technical expertise -->
+		<!-- CUSTOMIZATION DIFFICULTY: EASY to MODERATE -->
+		<section class="overview-section p-3 p-lg-5">
+			<div class="container">
+				<!-- Section Title -->
+				<h2 class="section-title font-weight-bold mb-3">What I Do</h2>
+
+				<!-- Section Introduction -->
+				<!-- TO CUSTOMIZE: Write a brief overview of your experience and skills -->
+				<div class="section-intro mb-5">
+					[Write 2-3 sentences about your experience and what you specialize in.
+					For example: "I have X years of experience in web development and software engineering.
+					Below is a quick overview of my main technical skills and technologies I use."]
+				</div>
+
+				<!-- ==================== SKILLS GRID ==================== -->
+				<!-- Grid of your technical skills with icons -->
+				<!-- Each skill is displayed as a card with an icon and title -->
+				<!-- LAYOUT: 4 columns on desktop, 2 columns on mobile -->
+				<!-- TO CUSTOMIZE: Replace skill names and icons as needed -->
+				<!-- TIP: Find more icons at fontawesome.com -->
+				<div class="row">
+
+					<!-- SKILL ITEM 1 -->
+					<!-- TO CUSTOMIZE: Change the icon class and skill name -->
+					<div class="item col-6 col-lg-3">
+						<div class="item-inner text-center">
+							<!-- Icon - Find more at fontawesome.com/icons -->
+							<div class="item-icon"><i class="fab fa-git-alt"></i></div>
+							<!-- Skill Name -->
+							<h3 class="item-title">Git</h3>
+						</div>
+					</div>
+
+					<!-- SKILL ITEM 2 -->
+					<div class="item col-6 col-lg-3">
+						<div class="item-inner text-center">
+							<div class="item-icon"><i class="fab fa-python"></i></div>
+							<h3 class="item-title">Python</h3>
+						</div>
+					</div>
+
+					<!-- SKILL ITEM 3 -->
+					<div class="item col-6 col-lg-3">
+						<div class="item-inner text-center">
+							<div class="item-icon"><i class="fab fa-js-square"></i></div>
+							<h3 class="item-title">JavaScript</h3>
+						</div>
+					</div>
+
+					<!-- SKILL ITEM 4 -->
+					<div class="item col-6 col-lg-3">
+						<div class="item-inner text-center">
+							<div class="item-icon"><i class="fas fa-database"></i></div>
+							<h3 class="item-title">SQL Databases</h3>
+						</div>
+					</div>
+
+					<!-- ===== ADD MORE SKILLS ===== -->
+					<!-- INSTRUCTIONS: To add more skills, copy one of the above -->
+					<!-- skill blocks and paste it here. Then customize the icon -->
+					<!-- and title. Keep the same CSS classes for proper styling. -->
+
+				</div>
+				<!-- ==================== END SKILLS GRID ==================== -->
+
+			</div>
+		</section>
+		<!-- ==================== END WHAT I DO SECTION ==================== -->
+
+		<div class="container"><hr></div>
+
+		<!-- ==================== FEATURED PROJECTS SECTION ==================== -->
+		<!-- Showcase your best 3-4 projects on the homepage -->
+		<!-- CUSTOMIZATION DIFFICULTY: MODERATE -->
+		<section class="featured-section p-3 p-lg-5">
+			<div class="container">
+				<!-- Section Title -->
+				<h2 class="section-title font-weight-bold mb-5">Featured Projects</h2>
+
+				<!-- Projects Grid - 2 columns layout -->
+				<div class="row">
+
+					<!-- ==================== PROJECT CARD 1 ==================== -->
+					<!-- Each project card has an image, title, description, and link -->
+					<!-- TO CUSTOMIZE: Replace image, title, description, and link -->
+					<div class="col-md-6 mb-5">
+						<div class="card project-card">
+							<div class="row no-gutters">
+								<!-- Project Image - Left side (4 columns) -->
+								<!-- RECOMMENDED: Use 400x300px images -->
+								<!-- TO CUSTOMIZE: Replace src with your project image path -->
+								<div class="col-lg-4 card-img-holder">
+									<img src="assets/images/projects/project-1.jpg"
+										class="card-img"
+										alt="Screenshot of [Project Name]">
+								</div>
+
+								<!-- Project Info - Right side (8 columns) -->
+								<div class="col-lg-8">
+									<div class="card-body">
+										<!-- Project Title -->
+										<!-- TO CUSTOMIZE: Replace with your project name -->
+										<h5 class="card-title">
+											<a href="project-template.html" class="theme-link">
+												[Project Name 1]
+											</a>
+										</h5>
+
+										<!-- Project Description -->
+										<!-- TO CUSTOMIZE: Write 1-2 sentences about the project -->
+										<p class="card-text">
+											[Brief description of your project. What does it do?
+											What technologies did you use? Keep it concise.]
+										</p>
+									</div>
+								</div>
+							</div>
+
+							<!-- Hover Overlay - Shows "View Project" button on hover -->
+							<div class="link-mask">
+								<!-- TO CUSTOMIZE: Update href to link to project details page -->
+								<a class="link-mask-link" href="project-template.html"></a>
+								<div class="link-mask-text">
+									<a class="btn btn-secondary" href="project-template.html">
+										<i class="fas fa-eye mr-2"></i>View Project
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- ==================== END PROJECT CARD 1 ==================== -->
+
+					<!-- ==================== PROJECT CARD 2 ==================== -->
+					<div class="col-md-6 mb-5">
+						<div class="card project-card">
+							<div class="row no-gutters">
+								<div class="col-lg-4 card-img-holder">
+									<img src="assets/images/projects/project-2.jpg"
+										class="card-img"
+										alt="Screenshot of [Project Name]">
+								</div>
+								<div class="col-lg-8">
+									<div class="card-body">
+										<h5 class="card-title">
+											<a href="project-template.html" class="theme-link">
+												[Project Name 2]
+											</a>
+										</h5>
+										<p class="card-text">
+											[Brief description of your second project. Highlight what makes it unique or interesting.]
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="link-mask">
+								<a class="link-mask-link" href="project-template.html"></a>
+								<div class="link-mask-text">
+									<a class="btn btn-secondary" href="project-template.html">
+										<i class="fas fa-eye mr-2"></i>View Project
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- ==================== END PROJECT CARD 2 ==================== -->
+
+					<!-- ==================== PROJECT CARD 3 ==================== -->
+					<!-- ⚠️ IMPORTANT: This project currently links to project-template.html -->
+					<!-- WHEN YOUR PROJECT HTML FILE IS READY: -->
+					<!-- 1. Create your custom HTML file (e.g., exploring-resampling-methods.html) -->
+					<!-- 2. Replace ALL instances of "project-template.html" below with your filename -->
+					<!-- 3. Update the project image src to point to your project screenshot -->
+					<!-- 4. Update the description with details about your project -->
+					<div class="col-md-6 mb-5">
+						<div class="card project-card">
+							<div class="row no-gutters">
+								<div class="col-lg-4 card-img-holder">
+									<!-- TO CUSTOMIZE: Replace with your project screenshot -->
+									<img src="assets/images/projects/project-3.jpg"
+										class="card-img"
+										alt="Screenshot of Exploring Resampling Methods">
+								</div>
+								<div class="col-lg-8">
+									<div class="card-body">
+										<h5 class="card-title">
+											<!-- 🔗 CHANGE THIS HREF: Replace "project-template.html" with your custom HTML file -->
+											<a href="project-template.html" class="theme-link">
+												Exploring Resampling Methods
+											</a>
+										</h5>
+										<!-- TO CUSTOMIZE: Write 1-2 sentences about your project -->
+										<p class="card-text">
+											[Brief description of your Exploring Resampling Methods project.
+											What statistical methods did you explore? What were the key findings?]
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="link-mask">
+								<!-- 🔗 CHANGE THIS HREF: Replace "project-template.html" with your custom HTML file -->
+								<a class="link-mask-link" href="project-template.html"></a>
+								<div class="link-mask-text">
+									<!-- 🔗 CHANGE THIS HREF: Replace "project-template.html" with your custom HTML file -->
+									<a class="btn btn-secondary" href="project-template.html">
+										<i class="fas fa-eye mr-2"></i>View Project
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- ==================== END PROJECT CARD 3 ==================== -->
+
+					<!-- ===== ADD MORE PROJECTS HERE ===== -->
+					<!-- INSTRUCTIONS: To add more projects, copy one of the project card blocks -->
+					<!-- above (from the start comment to the end comment) and paste it here. -->
+					<!-- Then update the image, title, description, and links. -->
+
+				</div>
+
+				<!-- "View All Projects" Button -->
+				<!-- Links to the full portfolio page -->
+				<div class="text-center py-3">
+					<a href="portfolio.html" class="btn btn-primary">
+						<i class="fas fa-arrow-alt-circle-right mr-2"></i>View Full Portfolio
+					</a>
+				</div>
+
+			</div>
+		</section>
+		<!-- ==================== END FEATURED PROJECTS SECTION ==================== -->
+
+		<div class="container"><hr></div>
+
+		<!-- ==================== FOOTER (OPTIONAL) ==================== -->
+		<!-- You can add a footer here with copyright info, links, etc. -->
+		<!-- Currently commented out - uncomment to use -->
+		<!--
+		<footer class="footer text-center py-4">
+			<small class="copyright">
+				&copy; 2024 [YOUR NAME]. All rights reserved.
+			</small>
+		</footer>
+		-->
+
+	</div>
+	<!-- ==================== END MAIN CONTENT AREA ==================== -->
+
+	<!-- ==================== JAVASCRIPT FILES ==================== -->
+	<!-- These scripts add interactivity to your website -->
+	<!-- They are placed at the bottom so the page content loads first -->
+
+	<!-- jQuery - Required for Bootstrap and our custom scripts -->
+	<script src="assets/plugins/jquery-3.4.1.min.js"></script>
+
+	<!-- Popper.js - Required for Bootstrap dropdowns and tooltips -->
+	<script src="assets/plugins/popper.min.js"></script>
+
+	<!-- Bootstrap JavaScript - Powers responsive navigation and components -->
+	<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+
+	<!-- Cookie Plugin - Saves dark mode preference -->
+	<script src="assets/plugins/js-cookie.min.js"></script>
+
+	<!-- Dark Mode Script - Toggles between light and dark themes -->
+	<script src="assets/js/dark-mode.js"></script>
+
+</body>
+</html>

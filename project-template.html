@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- ==================== META INFORMATION ==================== -->
+	<title>[PROJECT NAME] - [YOUR NAME]</title>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="[PROJECT NAME] - [Brief project description]">
+	<meta name="author" content="[YOUR NAME]">
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<!-- ==================== FONTS ==================== -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+
+	<!-- ==================== STYLES ==================== -->
+	<link id="theme-style" rel="stylesheet" href="assets/css/theme.css">
+
+	<!-- ==================== ICONS ==================== -->
+	<script defer src="assets/plugins/fontawesome/js/all.js"></script>
+</head>
+
+<body>
+
+	<!-- ==================== SIDEBAR NAVIGATION ==================== -->
+	<!-- Same navigation as other pages for consistency -->
+	<header class="header text-center">
+		<div class="force-overflow">
+			<h1 class="blog-name pt-lg-4 mb-0"><a href="index.html">[YOUR NAME]</a></h1>
+
+			<nav class="navbar navbar-expand-lg navbar-dark">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+					aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div id="navigation" class="collapse navbar-collapse flex-column">
+					<div class="profile-section pt-3 pt-lg-0">
+						<img class="profile-image mb-3 rounded-circle mx-auto"
+							src="assets/images/profile-placeholder.jpg"
+							alt="Profile photo of [YOUR NAME]">
+
+						<div class="bio mb-3">
+							Hi, my name is [YOUR NAME] and I'm a [YOUR TITLE/ROLE].
+							Welcome to my portfolio website!
+						</div>
+
+						<ul class="social-list list-inline py-2 mx-auto">
+							<li class="list-inline-item">
+								<a href="https://google.com" target="_blank" aria-label="LinkedIn">
+									<i class="fab fa-linkedin-in fa-fw"></i>
+								</a>
+							</li>
+							<li class="list-inline-item">
+								<a href="https://google.com" target="_blank" aria-label="GitHub">
+									<i class="fab fa-github-alt fa-fw"></i>
+								</a>
+							</li>
+							<li class="list-inline-item">
+								<a href="https://google.com" target="_blank" aria-label="Twitter">
+									<i class="fab fa-twitter fa-fw"></i>
+								</a>
+							</li>
+							<li class="list-inline-item">
+								<a href="https://google.com" target="_blank" aria-label="Email">
+									<i class="fas fa-envelope fa-fw"></i>
+								</a>
+							</li>
+							<li class="list-inline-item">
+								<a href="https://google.com" target="_blank" aria-label="CodePen">
+									<i class="fab fa-codepen fa-fw"></i>
+								</a>
+							</li>
+						</ul>
+						<hr>
+					</div>
+
+					<ul class="navbar-nav flex-column text-left">
+						<li class="nav-item">
+							<a class="nav-link" href="index.html">
+								<i class="fas fa-user fa-fw mr-2"></i>About Me
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="portfolio.html">
+								<i class="fas fa-laptop-code fa-fw mr-2"></i>Portfolio
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="https://google.com" target="_blank">
+								<i class="fas fa-file-alt fa-fw mr-2"></i>Resume
+							</a>
+						</li>
+					</ul>
+
+					<div class="dark-mode-toggle text-center w-100">
+						<hr class="mb-4">
+						<h4 class="toggle-name mb-3">
+							<i class="fas fa-adjust mr-1"></i>Dark Mode
+						</h4>
+						<input class="toggle" id="darkmode" type="checkbox">
+						<label class="toggle-btn mx-auto mb-0" for="darkmode"></label>
+					</div>
+
+				</div>
+			</nav>
+		</div>
+	</header>
+	<!-- ==================== END SIDEBAR NAVIGATION ==================== -->
+
+	<!-- ==================== MAIN CONTENT AREA ==================== -->
+	<div class="main-wrapper">
+
+		<!-- ==================== PROJECT HERO SECTION ==================== -->
+		<!-- Eye-catching introduction to your project -->
+		<!-- CUSTOMIZATION DIFFICULTY: EASY -->
+		<section class="cta-section theme-bg-light py-5">
+			<div class="container single-col-max-width">
+				<!-- Project Title -->
+				<!-- TO CUSTOMIZE: Replace with your project name -->
+				<h2 class="heading text-center">[PROJECT NAME]</h2>
+
+				<!-- Project Tagline/Subtitle -->
+				<!-- TO CUSTOMIZE: One sentence describing what your project does -->
+				<div class="project-intro text-center">
+					<p class="mb-0 lead">
+						[One sentence tagline describing what your project does or its main purpose]
+					</p>
+				</div>
+			</div>
+		</section>
+		<!-- ==================== END PROJECT HERO SECTION ==================== -->
+
+		<!-- ==================== PROJECT DETAILS SECTION ==================== -->
+		<section class="project px-3 py-5 p-md-5">
+			<div class="container">
+
+				<!-- ==================== PROJECT META BOX ==================== -->
+				<!-- Key information about the project: role, links, description -->
+				<!-- CUSTOMIZATION DIFFICULTY: EASY -->
+				<div class="project-meta media flex-column flex-md-row p-4 theme-bg-light">
+
+					<!-- Project Thumbnail Image (hidden on mobile) -->
+					<!-- RECOMMENDED: 300x200px image showing project preview -->
+					<!-- TO CUSTOMIZE: Replace src with path to your project image -->
+					<img class="project-thumb mb-3 mb-md-0 mr-md-5 rounded d-none d-md-inline-block"
+						src="assets/images/projects/project-1.jpg"
+						alt="[PROJECT NAME] preview">
+
+					<!-- Project Information -->
+					<div class="media-body">
+						<div class="client-info">
+							<!-- Project Name (repeated for emphasis) -->
+							<h3 class="client-name font-weight-bold mb-4">[PROJECT NAME]</h3>
+
+							<!-- ===== PROJECT METADATA LIST ===== -->
+							<!-- Quick facts about the project -->
+							<ul class="client-meta list-unstyled">
+
+								<!-- Your Role in the Project -->
+								<!-- TO CUSTOMIZE: e.g., "Full Stack Developer", "Solo Project", "Team Lead" -->
+								<li class="mb-2">
+									<i class="fas fa-user mr-2"></i>
+									<strong>Role:</strong> [Your Role - e.g., Full Stack Developer]
+								</li>
+
+								<!-- GitHub Repository Link (OPTIONAL) -->
+								<!-- TO CUSTOMIZE: Replace https://google.com with your GitHub repo URL -->
+								<!-- TIP: Remove this line if project code isn't public -->
+								<li class="mb-2">
+									<i class="fab fa-github mr-2"></i>
+									<strong>Source Code:</strong>
+									<a class="theme-link" href="https://google.com" target="_blank">
+										View on GitHub
+									</a>
+								</li>
+
+								<!-- Live Demo Link (OPTIONAL) -->
+								<!-- TO CUSTOMIZE: Replace https://google.com with deployed project URL -->
+								<!-- TIP: Remove this line if there's no live demo -->
+								<li class="mb-2">
+									<i class="fas fa-link mr-2"></i>
+									<strong>Live Demo:</strong>
+									<a class="theme-link" href="https://google.com" target="_blank">
+										View Live Project
+									</a>
+								</li>
+
+								<!-- Technologies Used -->
+								<!-- TO CUSTOMIZE: List the main tech stack -->
+								<li class="mb-2">
+									<i class="fas fa-code mr-2"></i>
+									<strong>Technologies:</strong>
+									[e.g., React, Node.js, MongoDB, Express]
+								</li>
+
+							</ul>
+							<!-- ===== END PROJECT METADATA ===== -->
+
+							<!-- Project Overview/Description -->
+							<!-- TO CUSTOMIZE: Write 2-4 sentences about the project -->
+							<!-- TIP: Explain what it does, why you built it, and who it's for -->
+							<div class="client-bio mb-4">
+								[Write a comprehensive overview of your project here. Explain what the project does,
+								what problem it solves, who the target users are, and what motivated you to build it.
+								This is your chance to tell the story behind the project. Keep it engaging and
+								informative - aim for 2-4 sentences.]
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<!-- ==================== END PROJECT META BOX ==================== -->
+
+				<!-- ==================== PROJECT CONTENT SECTIONS ==================== -->
+				<!-- Detailed information about your project -->
+				<!-- You can add as many sections as you need -->
+				<div class="project-sections py-5">
+
+					<!-- ==================== TECHNICAL OVERVIEW SECTION ==================== -->
+					<!-- Explain the technical aspects of your project -->
+					<!-- CUSTOMIZATION DIFFICULTY: EASY -->
+					<div class="project-section mb-5">
+						<h3 class="project-section-title mb-3">Technical Overview</h3>
+
+						<!-- TO CUSTOMIZE: Describe the tech stack and architecture -->
+						<p>
+							[Describe the technical implementation of your project. What frameworks and
+							libraries did you use? How is it structured? What was your development process?]
+						</p>
+
+						<!-- Technology Stack Breakdown (OPTIONAL) -->
+						<!-- Clean list format for tech details -->
+						<ul class="mb-0">
+							<li class="mb-2">
+								<strong>Frontend:</strong> [e.g., React, HTML/CSS, Bootstrap]
+							</li>
+							<li class="mb-2">
+								<strong>Backend:</strong> [e.g., Node.js, Express, MongoDB]
+							</li>
+							<li class="mb-2">
+								<strong>Tools & Services:</strong> [e.g., Git, Heroku, Firebase]
+							</li>
+						</ul>
+					</div>
+					<!-- ==================== END TECHNICAL OVERVIEW ==================== -->
+
+					<!-- ==================== KEY FEATURES SECTION ==================== -->
+					<!-- Highlight the main features of your project -->
+					<!-- CUSTOMIZATION DIFFICULTY: EASY -->
+					<div class="project-section mb-5">
+						<h3 class="project-section-title mb-3">Key Features</h3>
+
+						<!-- TO CUSTOMIZE: Describe the main features and functionality -->
+						<p>
+							[Describe the key features of your project. What can users do? What makes
+							your project special or unique? Focus on the most important capabilities.]
+						</p>
+
+						<!-- Feature Screenshots (OPTIONAL) -->
+						<!-- 2-column grid of images showing features -->
+						<!-- RECOMMENDED: 800x600px images work well -->
+						<div class="row mt-5">
+							<!-- Screenshot 1 -->
+							<!-- TO CUSTOMIZE: Replace src and alt text -->
+							<div class="col-12 col-lg-6 mb-5">
+								<img class="img-fluid rounded"
+									src="assets/images/projects/project-detail-1.jpg"
+									alt="Screenshot showing [feature description]">
+								<!-- Optional caption below image -->
+								<!-- <p class="text-center mt-2"><small>[Feature 1 description]</small></p> -->
+							</div>
+
+							<!-- Screenshot 2 -->
+							<div class="col-12 col-lg-6 mb-5">
+								<img class="img-fluid rounded"
+									src="assets/images/projects/project-detail-2.jpg"
+									alt="Screenshot showing [feature description]">
+							</div>
+
+							<!-- Screenshot 3 -->
+							<div class="col-12 col-lg-6 mb-5">
+								<img class="img-fluid rounded"
+									src="assets/images/projects/project-detail-3.jpg"
+									alt="Screenshot showing [feature description]">
+							</div>
+
+							<!-- Screenshot 4 -->
+							<div class="col-12 col-lg-6 mb-5">
+								<img class="img-fluid rounded"
+									src="assets/images/projects/project-detail-4.jpg"
+									alt="Screenshot showing [feature description]">
+							</div>
+
+							<!-- ===== ADD MORE SCREENSHOTS ===== -->
+							<!-- Copy a screenshot div block to add more images -->
+
+						</div>
+					</div>
+					<!-- ==================== END KEY FEATURES SECTION ==================== -->
+
+					<!-- ==================== CHALLENGES & LEARNINGS SECTION (OPTIONAL) ==================== -->
+					<!-- Share what you learned or obstacles you overcame -->
+					<!-- This section is optional but makes your portfolio stand out -->
+					<!-- CUSTOMIZATION DIFFICULTY: EASY -->
+					<div class="project-section mb-5">
+						<h3 class="project-section-title mb-3">Challenges & Learnings</h3>
+
+						<!-- TO CUSTOMIZE: Describe challenges and what you learned -->
+						<p>
+							[What challenges did you face while building this project? How did you overcome them?
+							What new skills or technologies did you learn? This shows your problem-solving abilities
+							and growth mindset.]
+						</p>
+					</div>
+					<!-- ==================== END CHALLENGES SECTION ==================== -->
+
+					<!-- ==================== FUTURE ENHANCEMENTS SECTION (OPTIONAL) ==================== -->
+					<!-- Discuss planned improvements or next steps -->
+					<!-- CUSTOMIZATION DIFFICULTY: EASY -->
+					<div class="project-section mb-5">
+						<h3 class="project-section-title mb-3">Future Enhancements</h3>
+
+						<!-- TO CUSTOMIZE: Describe planned improvements -->
+						<p>
+							[What features would you like to add in the future? How could you improve the project?
+							This shows you're thinking ahead and continuously improving your work.]
+						</p>
+
+						<!-- Planned Features List (OPTIONAL) -->
+						<ul class="mb-0">
+							<li class="mb-2">[Planned feature 1]</li>
+							<li class="mb-2">[Planned feature 2]</li>
+							<li class="mb-2">[Planned feature 3]</li>
+						</ul>
+					</div>
+					<!-- ==================== END FUTURE ENHANCEMENTS SECTION ==================== -->
+
+					<!-- ==================== CODE EXAMPLE SECTION (OPTIONAL) ==================== -->
+					<!-- Show code snippets from your project -->
+					<!-- WHEN TO USE: When you want to highlight interesting code or algorithms -->
+					<!-- CUSTOMIZATION DIFFICULTY: EASY -->
+					<!-- NOTE: For syntax highlighting, add highlight.js (see instructions below) -->
+					<div class="project-section mb-5">
+						<h3 class="project-section-title mb-3">Code Example</h3>
+
+						<!-- TO CUSTOMIZE: Explain what this code does -->
+						<p>
+							[Describe what this code snippet demonstrates. What problem does it solve?
+							Why is this approach interesting or innovative?]
+						</p>
+
+						<!-- Code Block -->
+						<!-- TO CUSTOMIZE: Replace with your actual code -->
+						<!-- TIP: Keep code snippets focused and under 20 lines when possible -->
+						<pre><code>
+// Example: JavaScript function
+function calculateTotal(items) {
+    return items.reduce((sum, item) => {
+        return sum + (item.price * item.quantity);
+    }, 0);
+}
+
+// Usage
+const total = calculateTotal(cartItems);
+console.log(`Total: $${total.toFixed(2)}`);
+						</code></pre>
+
+						<!-- INSTRUCTIONS FOR SYNTAX HIGHLIGHTING (OPTIONAL): -->
+						<!-- If you want colored syntax highlighting like in the blog example: -->
+						<!-- 1. Add this to <head> section: -->
+						<!--    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/monokai-sublime.min.css"> -->
+						<!-- 2. Add this before </body>: -->
+						<!--    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script> -->
+						<!--    <script>hljs.highlightAll();</script> -->
+					</div>
+					<!-- ==================== END CODE EXAMPLE SECTION ==================== -->
+
+					<!-- ==================== DEMO VIDEO SECTION (OPTIONAL) ==================== -->
+					<!-- Embed a video demonstration of your project -->
+					<!-- WHEN TO USE: When you have a screencast, tutorial, or demo video -->
+					<!-- CUSTOMIZATION DIFFICULTY: EASY -->
+					<div class="project-section mb-5">
+						<h3 class="project-section-title mb-3">Demo Video</h3>
+
+						<!-- TO CUSTOMIZE: Describe what viewers will see in the video -->
+						<p>
+							[Explain what this video demonstrates. Is it a walkthrough of features?
+							A tutorial? A presentation? Help viewers know what to expect.]
+						</p>
+
+						<!-- Responsive Video Embed (16:9 aspect ratio) -->
+						<!-- TO CUSTOMIZE: Replace the YouTube video ID in the src URL -->
+						<!-- EXAMPLE: For https://www.youtube.com/watch?v=YOUR_VIDEO_ID -->
+						<!-- Use: https://www.youtube.com/embed/YOUR_VIDEO_ID -->
+						<div class="embed-responsive embed-responsive-16by9">
+							<iframe width="560" height="315"
+								src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+								frameborder="0"
+								allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+								allowfullscreen>
+							</iframe>
+						</div>
+
+						<!-- TIP: You can also embed videos from Vimeo, Loom, or other platforms -->
+						<!-- Just replace the iframe src with the embed URL from those services -->
+					</div>
+					<!-- ==================== END DEMO VIDEO SECTION ==================== -->
+
+					<!-- ==================== RESULTS/DATA TABLE SECTION (OPTIONAL) ==================== -->
+					<!-- Display data, metrics, or results in a table format -->
+					<!-- WHEN TO USE: When you have performance metrics, test results, or comparison data -->
+					<!-- CUSTOMIZATION DIFFICULTY: EASY -->
+					<div class="project-section mb-5">
+						<h3 class="project-section-title mb-3">Results & Metrics</h3>
+
+						<!-- TO CUSTOMIZE: Explain what the data shows -->
+						<p>
+							[Describe what this table shows. Are these performance benchmarks?
+							Test results? User statistics? Provide context for the numbers.]
+						</p>
+
+						<!-- Striped Table -->
+						<!-- TO CUSTOMIZE: Update headers and data -->
+						<table class="table table-striped my-4">
+							<thead>
+								<tr>
+									<th scope="col">Metric</th>
+									<th scope="col">Before</th>
+									<th scope="col">After</th>
+									<th scope="col">Improvement</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Load Time</td>
+									<td>3.2s</td>
+									<td>1.1s</td>
+									<td>65% faster</td>
+								</tr>
+								<tr>
+									<td>API Response</td>
+									<td>850ms</td>
+									<td>120ms</td>
+									<td>85% faster</td>
+								</tr>
+								<tr>
+									<td>User Satisfaction</td>
+									<td>72%</td>
+									<td>94%</td>
+									<td>+22 points</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<!-- ==================== END RESULTS/DATA TABLE SECTION ==================== -->
+
+					<!-- ==================== TESTIMONIAL/QUOTE SECTION (OPTIONAL) ==================== -->
+					<!-- Share feedback, reviews, or relevant quotes -->
+					<!-- WHEN TO USE: When you have user feedback, team member quotes, or relevant wisdom -->
+					<!-- CUSTOMIZATION DIFFICULTY: EASY -->
+					<div class="project-section mb-5">
+						<h3 class="project-section-title mb-3">User Feedback</h3>
+
+						<!-- TO CUSTOMIZE: Add context about the feedback -->
+						<p>
+							[Introduce the quote. Who said this? When? What prompted this feedback?]
+						</p>
+
+						<!-- Blockquote -->
+						<!-- TO CUSTOMIZE: Replace with actual quote and attribution -->
+						<blockquote class="blockquote m-lg-5 py-3 pl-4 px-lg-5">
+							<p class="mb-2">
+								"This tool completely transformed our workflow. What used to take hours
+								now takes minutes. The interface is intuitive and the results are reliable."
+							</p>
+							<footer class="blockquote-footer">
+								Jane Smith, Product Manager at TechCorp
+							</footer>
+						</blockquote>
+
+						<!-- TIP: You can add multiple blockquotes for different testimonials -->
+					</div>
+					<!-- ==================== END TESTIMONIAL/QUOTE SECTION ==================== -->
+
+					<!-- ==================== IMAGE WITH CAPTION SECTION (OPTIONAL) ==================== -->
+					<!-- Display images with proper captions and attribution -->
+					<!-- WHEN TO USE: When you want to show a key screenshot with detailed explanation -->
+					<!-- CUSTOMIZATION DIFFICULTY: EASY -->
+					<div class="project-section mb-5">
+						<h3 class="project-section-title mb-3">Architecture Diagram</h3>
+
+						<!-- TO CUSTOMIZE: Explain what the image shows -->
+						<p>
+							[Describe what viewers will see in this image. Why is it important?
+							What should they pay attention to?]
+						</p>
+
+						<!-- Figure with Caption -->
+						<!-- TO CUSTOMIZE: Replace image and caption -->
+						<figure class="figure">
+							<img src="assets/images/projects/project-detail-1.jpg"
+								class="figure-img img-fluid rounded"
+								alt="[Description of image]">
+							<figcaption class="figure-caption text-center mt-2">
+								Figure 1: [Caption describing what the image shows. Include any necessary attribution.]
+							</figcaption>
+						</figure>
+					</div>
+					<!-- ==================== END IMAGE WITH CAPTION SECTION ==================== -->
+
+					<!-- ===== ADD MORE CUSTOM SECTIONS HERE ===== -->
+					<!-- You can add any additional sections you need: -->
+					<!-- - User Feedback -->
+					<!-- - Performance Metrics -->
+					<!-- - Design Process -->
+					<!-- - Team Collaboration -->
+					<!-- - Deployment Process -->
+					<!-- - Testing Strategy -->
+					<!-- Just copy the project-section div structure above -->
+
+				</div>
+				<!-- ==================== END PROJECT CONTENT SECTIONS ==================== -->
+
+			</div>
+		</section>
+
+		<!-- ==================== CALL-TO-ACTION SECTION ==================== -->
+		<!-- Encourage visitors to get in touch -->
+		<section class="promo-section text-center py-5">
+			<div class="container single-col-max-width">
+				<h2 class="title">Interested in working together?</h2>
+				<p>
+					I'm always open to discussing new projects, creative ideas, or opportunities.
+				</p>
+
+				<!-- Back to Portfolio Button -->
+				<div class="text-center">
+					<a class="btn btn-primary mr-2 mb-3" href="portfolio.html">
+						<i class="fas fa-arrow-left mr-2"></i>Back to Portfolio
+					</a>
+					<!-- Contact Button (OPTIONAL) -->
+					<!-- TO CUSTOMIZE: Add your email link (e.g., mailto:you@email.com) or contact page -->
+					<a class="btn btn-secondary mb-3" href="https://google.com">
+						<i class="fas fa-envelope mr-2"></i>Get in Touch
+					</a>
+				</div>
+			</div>
+		</section>
+		<!-- ==================== END CALL-TO-ACTION SECTION ==================== -->
+
+	</div>
+	<!-- ==================== END MAIN CONTENT AREA ==================== -->
+
+	<!-- ==================== JAVASCRIPT FILES ==================== -->
+	<script src="assets/plugins/jquery-3.4.1.min.js"></script>
+	<script src="assets/plugins/popper.min.js"></script>
+	<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+	<script src="assets/plugins/js-cookie.min.js"></script>
+	<script src="assets/js/dark-mode.js"></script>
+
+	<!-- ==================== INSTRUCTIONS FOR REUSING THIS TEMPLATE ==================== -->
+	<!--
+
+	HOW TO CREATE A NEW PROJECT PAGE:
+
+	1. DUPLICATE THIS FILE
+	   - Make a copy of project-template.html
+	   - Rename it (e.g., my-awesome-project.html)
+	   - Save it in the same directory
+
+	2. UPDATE METADATA (lines 4-11)
+	   - Change the <title> to include your project name
+	   - Update the meta description
+
+	3. CUSTOMIZE HERO SECTION (around line 90)
+	   - Replace [PROJECT NAME] with your actual project name
+	   - Write a compelling one-sentence tagline
+
+	4. FILL IN PROJECT META BOX (around line 110)
+	   - Add project thumbnail image
+	   - Update your role
+	   - Add GitHub and live demo links (or remove if not applicable)
+	   - List the technologies used
+	   - Write the project overview
+
+	5. ADD PROJECT CONTENT (around line 180)
+	   - Fill in the Technical Overview
+	   - Describe Key Features
+	   - Add screenshots (replace placeholder images)
+	   - Optionally add Challenges & Future Enhancements sections
+	   - Use optional sections like Code Examples, Demo Videos, Tables, Quotes as needed
+
+	6. UPDATE NAVIGATION LINKS
+	   - Make sure all navigation links work correctly
+	   - Update contact email in the CTA section
+
+	7. LINK FROM PORTFOLIO
+	   - Go to portfolio.html or index.html
+	   - Update the project card links to point to your new file
+
+	TIPS:
+	- Keep descriptions concise and engaging
+	- Use high-quality screenshots
+	- Focus on results and impact, not just features
+	- Show your personality and passion for the project
+	- Use optional sections (code, video, tables, quotes) to make your project stand out
+	- Remove sections you don't need - not every project needs all features
+	- Proofread everything before publishing!
+
+	OPTIONAL SECTIONS AVAILABLE:
+	- Code Examples: Show interesting algorithms or implementations
+	- Demo Video: Embed YouTube/Vimeo walkthroughs
+	- Results & Metrics: Display data in tables
+	- User Feedback: Share testimonials and quotes
+	- Image with Caption: Properly attributed diagrams/screenshots
+
+	-->
+
+</body>
+</html>
