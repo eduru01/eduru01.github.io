@@ -106,4 +106,4 @@ Free to use for personal and commercial projects. No attribution required.
 ---
 
 **Start customizing**: [docs/CUSTOMIZATION-GUIDE.md](docs/CUSTOMIZATION-GUIDE.md)
-**Deploy to GitHub Pages**: [docs/SETUP.md](docs/SETUP.md)
+**
