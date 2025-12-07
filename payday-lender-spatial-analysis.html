@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
 	<!-- ==================== META INFORMATION ==================== -->
-	<title>Payday Lender Location and Income Analysis - Ezenwanyi Duru</title>
+	<title>Mapping Financial Inequality: Payday Lending in Houston, TX - Ezenwanyi Duru</title>
 
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Payday Lender Location and Income Analysis - Spatial analysis of financial exclusion using ArcGIS Pro">
+	<meta name="description" content="Mapping Financial Inequality: Payday Lending in Houston, TX - Spatial analysis of consumer lending distribution and neighborhood demographics">
 	<meta name="author" content="Ezenwanyi Duru">
 	<link rel="shortcut icon" href="assets/images/projects/ED.png">
 
@@ -104,11 +104,11 @@
 		<!-- ==================== PROJECT HERO SECTION ==================== -->
 		<section class="cta-section theme-bg-light py-5">
 			<div class="container single-col-max-width">
-				<h2 class="heading text-center">Payday Lender Location and Income Analysis</h2>
+				<h2 class="heading text-center">Mapping Financial Inequality: Payday Lending in Houston, TX</h2>
 
 				<div class="project-intro text-center">
 					<p class="mb-0 lead">
-						Spatial analysis of financial exclusion patterns using ArcGIS Pro to investigate relationships between payday lender locations and household income levels
+						Examining how consumer lending sites are distributed across Houston's Harris County and how their locations relate to neighborhood poverty and racial composition using spatial clustering and demographic analysis
 					</p>
 				</div>
 			</div>
@@ -124,11 +124,11 @@
 
 					<img class="project-thumb mb-3 mb-md-0 mr-md-5 rounded d-none d-md-inline-block"
 						src="assets/images/projects/GIS_COVER.png"
-						alt="Payday Lender Location and Income Analysis preview">
+						alt="Mapping Financial Inequality: Payday Lending in Houston, TX preview">
 
 					<div class="media-body">
 						<div class="client-info">
-							<h3 class="client-name font-weight-bold mb-4">Payday Lender Location and Income Analysis</h3>
+							<h3 class="client-name font-weight-bold mb-4">Mapping Financial Inequality: Payday Lending in Houston, TX</h3>
 
 							<ul class="client-meta list-unstyled">
 
@@ -140,18 +140,18 @@
 								<li class="mb-2">
 									<i class="fas fa-code mr-2"></i>
 									<strong>Technologies:</strong>
-									ArcGIS Pro, Spatial Join, Local Moran's I, Attribute Query, Data Analysis
+									ArcGIS Pro (projection, geocoding, joins, Local Moran's I), ACS / Social Explorer (demographic datasets), Data Axle (business listings & NAICS code extraction), Excel (initial cleaning and formatting), ArcGIS Online (boundary data & visualization support)
 								</li>
 
 								<li class="mb-2">
 									<i class="fas fa-graduation-cap mr-2"></i>
-									<strong>Course:</strong> Geospatial Information Systems
+									<strong>Course:</strong> Geospatial Information Systems (GIS)
 								</li>
 
 							</ul>
 
 							<div class="client-bio mb-4">
-								Investigating the relationship between payday loan lender locations and household family income levels based on census tracts and zip codes in Houston, Texas. Mapping payday lender locations as vector points and analyzing their distribution relative to traditional bank branches and median household income levels. Utilizing spatial analysis methods including overlay spatial join, Local Moran's I clustering analysis, and attribute queries to identify patterns of financial exclusion and visualize structural inequality in financial institution access. The analysis is examining whether payday lenders cluster in areas with lower income levels and in the absence of traditional banking services, revealing spatial patterns of financial exclusion across Houston neighborhoods.
+								Mapping Financial Inequality examines how consumer lending sites, specifically payday and auto lenders, are distributed across Houston's Harris County and how their locations relate to neighborhood poverty and racial composition. Using geocoded business listings, census tract boundaries, and ACS demographic data, the project integrates spatial clustering methods (Local Moran's I) with demographic analysis to understand whether lenders target vulnerable communities or cluster along commercial corridors.
 							</div>
 
 						</div>
@@ -159,15 +159,56 @@
 				</div>
 				<!-- ==================== END PROJECT META BOX ==================== -->
 
-				<!-- ==================== NOTE SECTION ==================== -->
+				<!-- ==================== PROJECT CONTENT SECTIONS ==================== -->
 				<div class="project-sections py-5">
+					<!-- ==================== WHAT I DID SECTION ==================== -->
 					<div class="project-section mb-5">
-						<div class="alert alert-info" role="alert">
-							<strong>Note:</strong> Final story map and poster coming soon.
+						<h3 class="project-section-title mb-3">What I Did</h3>
+						
+						<ul>
+							<li class="mb-2">Collected and cleaned consumer lending data from Data Axle (NAICS 522291) and geocoded 700+ locations using latitude and longitude.</li>
+							<li class="mb-2">Projected all datasets into NAD 1983 StatePlane Texas South Central (FIPS 4204) to ensure spatial consistency.</li>
+							<li class="mb-2">Clipped U.S. Census tracts to the Houston boundary and merged demographic attributes (poverty, race/ethnicity, population) from the ACS 5-year estimates via Social Explorer.</li>
+							<li class="mb-2">Conducted a spatial join to calculate the number of lenders per census tract and attach socioeconomic variables.</li>
+							<li class="mb-2">Ran a Local Moran's I cluster analysis to detect significant high–high, high–low, low–high, and low–low concentration patterns.</li>
+							<li class="mb-2">Compared these cluster types using summary statistics to understand how lending density relates to neighborhood characteristics.</li>
+							<li class="mb-2">Synthesized results into a spatial narrative explaining how consumer lending intersects with demographic and economic patterns in Houston.</li>
+						</ul>
+					</div>
+					<!-- ==================== END WHAT I DID SECTION ==================== -->
+
+					<!-- ==================== SKILLS DEMONSTRATED SECTION ==================== -->
+					<div class="project-section mb-5">
+						<h3 class="project-section-title mb-3">Skills Demonstrated</h3>
+						
+						<ul>
+							<li class="mb-2">Spatial data cleaning & preprocessing</li>
+							<li class="mb-2">Coordinate projection & geocoding</li>
+							<li class="mb-2">Spatial joins and geostatistical analysis (Local Moran's I)</li>
+							<li class="mb-2">Exploratory spatial data analysis (ESDA)</li>
+							<li class="mb-2">Data integration from multiple sources</li>
+							<li class="mb-2">Spatial visualization & cartographic communication</li>
+							<li class="mb-2">Analytical writing on financial and spatial inequality</li>
+						</ul>
+					</div>
+					<!-- ==================== END SKILLS DEMONSTRATED SECTION ==================== -->
+
+					<!-- ==================== DELIVERABLES SECTION ==================== -->
+					<div class="project-section mb-5">
+						<h3 class="project-section-title mb-3">Deliverables</h3>
+						
+						<!-- Story Map -->
+						<div class="mb-5">
+							<h4 class="mb-3">Interactive Story Map</h4>
+							<iframe src="https://storymaps.arcgis.com/stories/0c6bbdb2f79a4add9efcf6b84ea97f88?header" width="100%" height="500px" frameborder="0" allowfullscreen allow="geolocation"></iframe>
+							<p class="mt-2">
+								<a href="https://arcg.is/1e4nyS0" target="_blank" class="theme-link">View full story map in new window</a>
+							</p>
 						</div>
 					</div>
+					<!-- ==================== END DELIVERABLES SECTION ==================== -->
 				</div>
-				<!-- ==================== END NOTE SECTION ==================== -->
+				<!-- ==================== END PROJECT CONTENT SECTIONS ==================== -->
 
 			</div>
 		</section>
