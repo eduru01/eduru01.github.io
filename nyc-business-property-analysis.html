@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
 	<!-- ==================== META INFORMATION ==================== -->
-	<title>NYC Business Growth and Property Value Analysis - Ezenwanyi Duru</title>
+	<title>NYC Property Value Analysis - Ezenwanyi Duru</title>
 
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="NYC Business Growth and Property Value Analysis - Analyzing how new businesses and urban factors affect property values using regression modeling">
+	<meta name="description" content="NYC Property Value Analysis - Analyzing property values using regression modeling and spatial analysis">
 	<meta name="author" content="Ezenwanyi Duru">
 	<link rel="shortcut icon" href="assets/images/projects/ED.png">
 
@@ -104,11 +104,11 @@
 		<!-- ==================== PROJECT HERO SECTION ==================== -->
 		<section class="cta-section theme-bg-light py-5">
 			<div class="container single-col-max-width">
-				<h2 class="heading text-center">NYC Business Growth and Property Value Analysis</h2>
+				<h2 class="heading text-center">NYC Property Value Analysis</h2>
 
 				<div class="project-intro text-center">
 					<p class="mb-0 lead">
-						Analyzing how new businesses and urban factors affect property values by zip code using regression modeling and data analytics
+						Analyzing how neighborhood characteristics influence residential property values across New York City using ZIP-code–level data and multiple linear regression
 					</p>
 				</div>
 			</div>
@@ -124,11 +124,11 @@
 
 					<img class="project-thumb mb-3 mb-md-0 mr-md-5 rounded d-none d-md-inline-block"
 						src="assets/images/projects/NYC_COVER.png"
-						alt="NYC Business Growth and Property Value Analysis preview">
+						alt="NYC Property Value Analysis preview">
 
 					<div class="media-body">
 						<div class="client-info">
-							<h3 class="client-name font-weight-bold mb-4">NYC Business Growth and Property Value Analysis</h3>
+							<h3 class="client-name font-weight-bold mb-4">NYC Property Value Analysis</h3>
 
 							<ul class="client-meta list-unstyled">
 
@@ -140,7 +140,7 @@
 								<li class="mb-2">
 									<i class="fas fa-code mr-2"></i>
 									<strong>Technologies:</strong>
-									R, Regression Models (Logistic Regression, Random Forest, Decision Tree), Forward Stepwise Selection, Feature Selection
+									R, RStudio, tidyverse (dplyr, ggplot2), sf (spatial data), broom, readr
 								</li>
 
 								<li class="mb-2">
@@ -151,7 +151,7 @@
 							</ul>
 
 							<div class="client-bio mb-4">
-								Analyzing how the onset of new businesses, along with multiple demographic and urban factors, affects property values by zip code in Brooklyn, New York from 2020-2025. The analysis is incorporating factors including population, emergence of unique businesses by borough, crime rate, public school locations, transit access, grocery stores, income, and other urban characteristics. Utilizing multiple regression models including logistic regression, random forest, and decision trees with forward stepwise selection to identify key factors influencing property values. The project involves data cleaning, exploratory data analysis, feature selection using PCA, and model comparison to determine the best predictive approach.
+								Analyzed how neighborhood characteristics influence residential property values across New York City using a ZIP-code–level dataset and multiple linear regression. Integrated spatial amenities (subway stations, grocery stores, schools, crime, new businesses) with socioeconomic factors (income, education, unemployment, population) using R and the sf package. Built full and borough-specific models to compare predictors across Manhattan, Brooklyn, Queens, the Bronx, and Staten Island. Identified income and grocery access as consistent positive predictors and revealed how the drivers of housing value vary sharply across boroughs.
 							</div>
 
 						</div>
@@ -159,15 +159,78 @@
 				</div>
 				<!-- ==================== END PROJECT META BOX ==================== -->
 
-				<!-- ==================== NOTE SECTION ==================== -->
+				<!-- ==================== PROJECT CONTENT SECTIONS ==================== -->
 				<div class="project-sections py-5">
+					<!-- ==================== WHAT I DID SECTION ==================== -->
 					<div class="project-section mb-5">
-						<div class="alert alert-info" role="alert">
-							<strong>Note:</strong> Paper and presentation coming soon.
+						<h3 class="project-section-title mb-3">What I Did</h3>
+						
+						<ul>
+							<li class="mb-2">Built a ZIP-code–level dataset by merging 10+ public datasets using R</li>
+							<li class="mb-2">Performed spatial joins to assign subway stations, crime incidents, grocery stores, schools, and businesses to ZIP codes</li>
+							<li class="mb-2">Engineered socioeconomic features (income, education, unemployment, population)</li>
+							<li class="mb-2">Built full and borough-specific multiple linear regression models</li>
+							<li class="mb-2">Evaluated model performance and interpreted coefficients to understand property value drivers</li>
+							<li class="mb-2">Synthesized findings into a final presentation and written report</li>
+						</ul>
+					</div>
+					<!-- ==================== END WHAT I DID SECTION ==================== -->
+
+					<!-- ==================== SKILLS DEMONSTRATED SECTION ==================== -->
+					<div class="project-section mb-5">
+						<h3 class="project-section-title mb-3">Skills Demonstrated</h3>
+						
+						<ul>
+							<li class="mb-2">Spatial data integration (sf, shapefiles, point-in-polygon joins)</li>
+							<li class="mb-2">Statistical modeling and coefficient interpretation</li>
+							<li class="mb-2">Data wrangling and feature engineering</li>
+							<li class="mb-2">Regression diagnostics and model validation</li>
+							<li class="mb-2">Analytical storytelling and urban data analysis</li>
+							<li class="mb-2">Reproducible research using R Markdown</li>
+						</ul>
+					</div>
+					<!-- ==================== END SKILLS DEMONSTRATED SECTION ==================== -->
+
+					<!-- ==================== DELIVERABLES SECTION ==================== -->
+					<div class="project-section mb-5">
+						<h3 class="project-section-title mb-3">Deliverables</h3>
+						
+						<div class="mb-4">
+							<p class="mb-2">
+								<strong>GitHub Repository:</strong>
+							</p>
+							<a href="https://github.com/eduru01/NYC-Property-Value-Regression.git" target="_blank" class="btn btn-primary mb-4">
+								<i class="fab fa-github mr-2"></i>View on GitHub
+							</a>
+						</div>
+
+						<!-- Final Presentation PDF -->
+						<div class="mb-5">
+							<h4 class="mb-3">Final Presentation</h4>
+							<div style="width: 100%; min-height: 600px;">
+								<iframe src="assets/images/projects/Data200Folder/R_200_Final_Presentation.pdf" 
+									style="width: 100%; height: 600px; border: 1px solid #ddd; border-radius: 4px;"
+									frameborder="0">
+									<p>Your browser does not support PDFs. <a href="assets/images/projects/Data200Folder/R_200_Final_Presentation.pdf" target="_blank">Download the PDF</a>.</p>
+								</iframe>
+							</div>
+						</div>
+
+						<!-- Final Paper PDF -->
+						<div class="mb-5">
+							<h4 class="mb-3">Final Paper</h4>
+							<div style="width: 100%; min-height: 600px;">
+								<iframe src="assets/images/projects/Data200Folder/Final_Paper_Data_200.pdf" 
+									style="width: 100%; height: 600px; border: 1px solid #ddd; border-radius: 4px;"
+									frameborder="0">
+									<p>Your browser does not support PDFs. <a href="assets/images/projects/Data200Folder/Final_Paper_Data_200.pdf" target="_blank">Download the PDF</a>.</p>
+								</iframe>
+							</div>
 						</div>
 					</div>
+					<!-- ==================== END DELIVERABLES SECTION ==================== -->
 				</div>
-				<!-- ==================== END NOTE SECTION ==================== -->
+				<!-- ==================== END PROJECT CONTENT SECTIONS ==================== -->
 
 			</div>
 		</section>
